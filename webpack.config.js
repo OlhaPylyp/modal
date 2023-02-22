@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: {
-    main: path.resolve(__dirname, "./src/js/modal.js"),
+    main: path.resolve(__dirname, "./src/js/index.js"),
   },
   output: {
     path: path.resolve(__dirname, "./dist"),
